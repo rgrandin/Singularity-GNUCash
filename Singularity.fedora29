@@ -1,0 +1,11 @@
+BootStrap: docker 
+From: fedora:29 
+
+
+%runscript
+    exec gnucash
+
+
+%post
+    dnf install -y gnucash
+
